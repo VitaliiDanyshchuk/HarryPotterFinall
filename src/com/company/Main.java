@@ -1,5 +1,5 @@
 package com.company;
-/* Classame : FinalTest
+/* Classame : Main
  *
  * Date: 23.06.2020
  * @author: Vitaliy
@@ -67,8 +67,10 @@ public class Main {
             }
         });
 
-        FileWriter nFile = new FileWriter("F:\\HarryPotterFinall\\src\\com\\company\\harryoutput.txt");
+        // write into file
+        FileWriter nFile = new FileWriter("F:\\HarryPotterFinall\\src\\com.company\\harryoutput.txt");
 
+        //create header
         String fileHeader = " -----HARRY POTTER TEST-----";
 
 
